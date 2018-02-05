@@ -16,7 +16,7 @@ This project can be executed as follows :
 2. Build the project
   <code> mvn clean install</code>
 3. Execute the main class
-  <code> mvn exec:java -Dexec.arge="<projectname> <bucketname> <filename> <topicname>" </code>
+  <code> mvn exec:java -Dexec.args="[projectname] [bucketname] [filename] [topicname]" </code>
  
  
 You would be able to see sysouts diplaying the read data on the console.
