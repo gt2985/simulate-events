@@ -14,9 +14,9 @@ This project can be executed as follows :
 
 1. Clone the repo.
 2. Build the project
-  mvn clean install
+  <code> mvn clean install</code>
 3. Execute the main class
-  mvn exec:java -Dexec.arge="<projectname> <bucketname> <filename> <topicname>"
+  <code> mvn exec:java -Dexec.arge="<projectname> <bucketname> <filename> <topicname>" </code>
  
  
 You would be able to see sysouts diplaying the read data on the console.
